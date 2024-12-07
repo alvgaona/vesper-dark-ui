@@ -47,6 +47,7 @@
     --note-search-bar-border-bottom: 1px solid hsl(var(--hsl-dark-grey));
     --note-tags-bar-input-background: hsl(var(--hsl-dark-grey));
     --page-background: hsl(var(--hsl-bg-muted));
+    --piled-segments-background: hsl(var(--hsl-dark-grey));
     --preferences-sidebar-background: hsl(var(--hsl-bg));
     --preferences-sidebar-item-active-background: hsl(var(--hsl-yellow));
     --preferences-view-background: hsl(var(--hsl-bg-muted));
@@ -73,6 +74,10 @@
     --tabular-menu-active-background: hsl(var(--hsl-yellow));
     --tag-grey-color: hsl(var(--hsl-light-grey));
     --tag-yellow-color: hsl(var(--hsl-yellow));
+    --task-icon-active: hsl(223 72% 68%);
+    --task-icon-onhold: hsl(38 72% 59%);
+    --task-icon-completed: hsl(147 72% 68%);
+    --task-icon-dropped: hsl(360 72% 68%);
     --unselected-text-color: hsl(var(--hsl-base02));
     --vertical-menu-background: hsl(var(--hsl-bg));
 }
