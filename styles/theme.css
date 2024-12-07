@@ -11,6 +11,7 @@
     --dropdown-hovered-item-color: hsl(var(--hsl-yellow) / 90%);
     --dropdown-menu-background: hsl(var(--hsl-bg));
     --editor-background: hsl(var(--hsl-bg-muted));
+    --editor-drawer-background: hsl(var(--hsl-bg));
     --editor-floating-actions-background: hsl(var(--hsl-bg));
     --focused-outline-color: 1px solid hsl(var(--hsl-yellow));
     --focused-outline-style: transparent;
@@ -52,7 +53,7 @@
     --pressed-text-color: hsl(var(--hsl-yellow));
     --primary-button-background-color: hsl(var(--hsl-bg));
     --primary-button-hover-background-color: hsl(var(--hsl-bg) / 70%);
-    --primary-color: hsl(var(--hsl-base00));
+    --primary-color: hsl(var(--hsl-yellow));
     --primary-color-focus: hsl(var(--hsl-base02));
     --secondary-segment-background: hsl(var(--hsl-dark-grey));
     --segment-background: hsl(var(--hsl-dark-grey) / 50%);
