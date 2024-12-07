@@ -6,6 +6,10 @@
     --button-hover-background-color: hsl(var(--hsl-light-grey) / 50%);
     --button-hover-color: hsl(var(--hsl-dark-grey) / 40%);
     --button-text-color: hsl(var(--hsl-dark-grey));
+    --checkbox-active-check-color: hsl(var(--hsl-dark-grey));
+    --checkbox-focus-label-color: hsl(var(--hsl-yellow));
+    --checkbox-pressed-label-color: hsl(var(--hsl-yellow) / 50%);
+    --checkbpx-label-color: hsl(var(--hsl-yellow));
     --disabled-text-color: hsl(var(--hsl-base02) / 10%);
     --dropdown-active-item-background: hsl(var(--hsl-dark-grey));
     --dropdown-active-item-color: hsl(var(--hsl-yellow));
@@ -14,11 +18,14 @@
     --editor-background: hsl(var(--hsl-bg-muted));
     --editor-drawer-background: hsl(var(--hsl-bg));
     --editor-floating-actions-background: hsl(var(--hsl-bg));
+    --focused-form-border-color: hsl(var(--hsl-dark-grey));
+    --focused-form-muted-border-color: hsl(var(--hsl-dark-grey));
     --focused-outline-color: 1px solid hsl(var(--hsl-yellow));
     --focused-outline-style: transparent;
     --form-input-focus-border-color: hsl(var(--hsl-yellow));
     --form-input-focus-color: var(--text-color);
     --grouped-segment-hover-background: hsl(var(--hsl-yellow) / 30%);
+    --header-text-color: hsl(var(--hsl-light-grey));
     --hovered-text-color: hsl(var(--hsl-yellow));
     --inline-dropdown-menu-background: hsl(var(--hsl-bg));
     --input-background: hsl(var(--hsl-dark-grey));
@@ -57,8 +64,8 @@
     --pressed-text-color: hsl(var(--hsl-yellow));
     --primary-button-background-color: hsl(var(--hsl-bg));
     --primary-button-hover-background-color: hsl(var(--hsl-bg) / 70%);
-    --primary-color: hsl(var(--hsl-yellow));
     --primary-color-focus: hsl(var(--hsl-base02));
+    --primary-color: hsl(var(--hsl-yellow));
     --secondary-segment-background: hsl(var(--hsl-dark-grey));
     --segment-background: hsl(var(--hsl-dark-grey) / 50%);
     --selection-list-active-background: hsl(var(--hsl-yellow));
@@ -72,26 +79,16 @@
     --sidebar-sync-status-view-background: hsl(0, 0%, 3%);
     --sidebar-sync-status-view-border-top: 0.875px solid hsl(var(--hsl-dark-grey));
     --solid-border-color: hsl(var(--hsl-dark-grey));
+    --solid-internal-border-color: hsl(var(--hsl-dark-grey));
     --table-background: hsl(var(--hsl-dark-grey));
     --table-header-background: var(--message-background);
     --tabular-menu-active-background: hsl(var(--hsl-yellow));
     --tag-grey-color: hsl(var(--hsl-light-grey));
     --tag-yellow-color: hsl(var(--hsl-yellow));
     --task-icon-active: hsl(223 72% 68%);
-    --task-icon-onhold: hsl(38 72% 59%);
     --task-icon-completed: hsl(147 72% 68%);
     --task-icon-dropped: hsl(360 72% 68%);
+    --task-icon-onhold: hsl(38 72% 59%);
     --unselected-text-color: hsl(var(--hsl-base02));
     --vertical-menu-background: hsl(var(--hsl-bg));
-}
-
-:root:has(body.acrylic-window) {
-    --page-background: transparent;
-    --editor-background: hsl(0deg 0% 6%);
-    /* --editor-floating-actions-background: hsl(var(--hsl-bg)); */
-    --editor-drawer-background: hsl(var(--hsl-base04));
-    --note-list-bar-background: hsl(var(--hsl-bg-muted-highlight) / 70%);
-    --sidebar-background: hsl(var(--hsl-bg) / 70%);
-    --inline-dropdown-menu-background: hsl(var(--hsl-base04));
-    --vertical-menu-background: hsl(var(--hsl-base04));
 }

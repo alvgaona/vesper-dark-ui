@@ -2,12 +2,12 @@
     "name": "vesper-ui",
     "version": "1.0.0",
     "theme": "ui",
+    "themeAppearence": "dark",
     "description": "Vesper UI Theme for Inkdrop",
     "styleSheets": [
         "theme.css",
         "tokens.css"
     ],
-    "themeAppearence": "dark",
     "scripts": {},
     "keywords": [
         "inkdrop",
