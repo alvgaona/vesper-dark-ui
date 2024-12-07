@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alvgaona/vesper-dark-ui.git"
+        "url": "https://github.com/alvgaona/vesper-dark-ui.git"
     },
     "author": "Alvaro Gaona <alvgaona@gmail.com>",
     "license": "MIT",
