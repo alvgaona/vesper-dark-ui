@@ -6,7 +6,7 @@
     --button-hover-background-color: hsl(var(--hsl-light-grey) / 50%);
     --button-hover-color: hsl(var(--hsl-dark-grey) / 40%);
     --button-text-color: hsl(var(--hsl-dark-grey));
-    --checkbox-active-check-color: hsl(var(--hsl-dark-grey));
+    --checkbox-active-check-color: hsl(var(--hsl-light-grey));
     --checkbox-focus-label-color: hsl(var(--hsl-yellow));
     --checkbox-pressed-label-color: hsl(var(--hsl-yellow) / 50%);
     --checkbpx-label-color: hsl(var(--hsl-yellow));
@@ -41,6 +41,7 @@
     --menu-active-hover-item-background: hsl(var(--hsl-bg-muted));
     --menu-active-hover-item-color: hsl(var(--hsl-yellow));
     --menu-active-item-text-color: var(--text-color);
+    --message-background: hsl(var(--hsl-light-grey) / 10%);
     --modal-box-actions-background: hsl(var(--hsl-bg-muted));
     --modal-box-content-background: hsl(var(--hsl-bg-muted));
     --modal-box-header-background: hsl(var(--hsl-bg-muted));
@@ -66,6 +67,9 @@
     --primary-button-hover-background-color: hsl(var(--hsl-bg) / 70%);
     --primary-color-focus: hsl(var(--hsl-base02));
     --primary-color: hsl(var(--hsl-yellow));
+    --secondary-pointing-menu-active-item-color: hsl(var(--hsl-dark-grey));
+    --secondary-pointing-menu-hover-text-color: hsl(var(--hsl-yellow) / 70%);
+    --secondary-pointing-menu-active-hover-item-color: hsl(var(--hsl-dark-grey));
     --secondary-segment-background: hsl(var(--hsl-dark-grey));
     --segment-background: hsl(var(--hsl-dark-grey) / 50%);
     --selection-list-active-background: hsl(var(--hsl-yellow));
