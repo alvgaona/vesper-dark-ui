@@ -6,6 +6,7 @@
     --button-hover-background-color: hsl(var(--hsl-light-grey) / 50%);
     --button-hover-color: hsl(var(--hsl-dark-grey) / 40%);
     --button-text-color: hsl(var(--hsl-dark-grey));
+    --disabled-text-color: hsl(var(--hsl-base02) / 10%);
     --dropdown-active-item-background: hsl(var(--hsl-dark-grey));
     --dropdown-active-item-color: hsl(var(--hsl-yellow));
     --dropdown-hovered-item-color: hsl(var(--hsl-yellow) / 90%);
@@ -23,6 +24,8 @@
     --input-background: hsl(var(--hsl-dark-grey));
     --input-color: hsl(var(--hsl-yellow));
     --input-focus-border-color: transparent;
+    --kbd-background: hsl(var(--hsl-light-grey));
+    --kbd-color: hsl(var(--hsl-dark-grey));
     --label-basic-background: hsl(var(--hsl-dark-grey));
     --light-text-color: hsl(var(--hsl-light-grey));
     --link-color: hsl(var(--hsl-cyan));
