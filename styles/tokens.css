@@ -1,0 +1,20 @@
+:root {
+    --hsl-base00: 0 0% 6.72%;
+    --hsl-base01: 0 0% 8%;
+    --hsl-base02: 0 0% 100%;
+    --hsl-base03: 0 0% 31%;
+    --hsl-base04: 0 3% 80%;
+
+    --hsl-yellow: 27 100% 80%;
+
+    --hsl-dark-grey: 0 0% 10%;
+    --hsl-light-grey: 0 0% 80%;
+
+    --hsl-cyan: 180 50% 40%;
+    --hsl-bright-cyan: 180 100% 60%;
+
+    --hsl-bg: var(--hsl-base00);
+    --hsl-bg-muted: var(--hsl-base01);
+
+    --text-color: hsl(var(--hsl-base02));
+}

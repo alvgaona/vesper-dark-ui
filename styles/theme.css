@@ -1,1 +1,73 @@
+:root {
+    --primary-color: hsl(var(--hsl-base00));
+    --primary-color-focus: hsl(var(--hsl-base02));
+    --input-background: hsl(var(--hsl-dark-grey));
+    --input-color: hsl(var(--hsl-yellow));
+    --input-focus-border-color: transparent;
+    --page-background: hsl(var(--hsl-bg-muted));
+    --light-text-color: hsl(var(--hsl-light-grey));
 
+    --focused-outline-style: transparent;
+    --border-color: hsl(var(--hsl-dark-grey));
+
+    --dropdown-menu-background: hsl(var(--hsl-bg));
+    --dropdown-active-item-background: hsl(var(--hsl-dark-grey));
+    --dropdown-active-item-color: hsl(var(--hsl-yellow));
+    --dropdown-hovered-item-color: hsl(var(--hsl-yellow) / 90%);
+    --inline-dropdown-menu-background: hsl(var(--hsl-bg));
+
+    --mark-color: hsl(var(--hsl-yellow));
+    --unselected-text-color: hsl(var(--hsl-base02));
+    --hovered-text-color: hsl(var(--hsl-yellow));
+    --pressed-text-color: hsl(var(--hsl-yellow));
+
+    --sidebar-background: hsl(var(--hsl-bg));
+    --sidebar-border-right: 1px solid hsl(var(--hsl-dark-grey));
+    --sidebar-sync-status-view-background: hsl(0, 0%, 3%);
+    --sidebar-menu-active-item-color: hsl(var(--hsl-base03));
+    --sidebar-menu-item-inactive-background: hsl(var(--hsl-yellow));
+    --sidebar-sync-status-view-border-top: 0.875px solid hsl(var(--hsl-dark-grey));
+
+    --note-list-bar-background: hsl(var(--hsl-bg-muted));
+    --note-list-view-item-header-color: hsl(var(--hsl-light-grey));
+    --note-list-bar-border-right: 0.875px solid hsl(var(--hsl-dark-grey));
+    --note-list-view-item-separator-border: 0.875px solid hsl(var(--hsl-dark-grey));
+    --note-list-view-item-date-color: hsl(var(--hsl-base03));
+    --note-list-view-item-color: hsl(var(--hsl-light-grey));
+    --note-list-view-item-selected-background: hsl(var(--hsl-dark-grey));
+    --note-list-view-item-active-background: hsl(var(--hsl-base03));
+    --note-tags-bar-input-background: hsl(var(--hsl-dark-grey));
+    --note-search-bar-border-bottom: 1px solid hsl(var(--hsl-dark-grey));
+    --focused-outline-color: 1px solid hsl(var(--hsl-yellow));
+    /* --note-search-bar-input-border: 1px solid hsl(var(--hsl-yellow)); */
+    /* --note-search-bar-border-bottom: rgba(255, 0, 0, 0); */
+    /* --note-search-bar-border-bottom: hsl(var(--hsl-yellow)); */
+
+    /* --modal-box-header-background: hsl(var(--hsl-bg)); */
+    /* --modal-box-actions-background: hsl(var(--hsl-bg-muted)); */
+    --modal-box-content-background: hsl(var(--hsl-bg-muted));
+
+    --editor-background: hsl(var(--hsl-bg-muted));
+    --editor-floating-actions-background: hsl(var(--hsl-bg));
+    --solid-border-color: hsl(var(--hsl-dark-grey));
+
+    --preferences-sidebar-item-active-background: hsl(var(--hsl-cyan));
+    --preferences-sidebar-background: hsl(var(--hsl-bg));
+    --preferences-view-background: hsl(var(--hsl-bg-muted));
+
+    --selection-list-active-color: hsl(var(--hsl-base03));
+    --selection-list-active-background: hsl(var(--hsl-yellow));
+    --selection-list-hover-background: hsl(var(--hsl-dark-grey));
+    --vertical-menu-background: hsl(var(--hsl-bg));
+}
+
+:root:has(body.acrylic-window) {
+    --page-background: transparent;
+    --editor-background: hsl(0deg 0% 6%);
+    /* --editor-floating-actions-background: hsl(var(--hsl-bg)); */
+    --editor-drawer-background: hsl(var(--hsl-base04));
+    --note-list-bar-background: hsl(var(--hsl-bg-muted-highlight) / 70%);
+    --sidebar-background: hsl(var(--hsl-bg) / 70%);
+    --inline-dropdown-menu-background: hsl(var(--hsl-base04));
+    --vertical-menu-background: hsl(var(--hsl-base04));
+}
