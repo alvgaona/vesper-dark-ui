@@ -79,9 +79,13 @@
     --sidebar-border-right: 1px solid hsl(var(--hsl-dark-grey));
     --sidebar-menu-active-item-color: hsl(var(--hsl-base03));
     --sidebar-menu-item-active-background: transparent;
+    --sidebar-menu-item-color: hsl(var(--hsl-light-grey) / 40%);
     --sidebar-menu-item-inactive-background: hsl(var(--hsl-yellow));
-    --sidebar-sync-status-view-background: hsl(0, 0%, 3%);
+    --sidebar-menu-section-color: hsl(var(--hsl-light-grey));
+    --sidebar-sync-status-view-background: hsl(0 0% 3%);
     --sidebar-sync-status-view-border-top: 0.875px solid hsl(var(--hsl-dark-grey));
+    --sidebar-sync-status-view-detail-color: hsl(var(--hsl-light-grey));
+    --sidebar-sync-status-view-text-color: hsl(var(--hsl-light-grey) / 70%);
     --solid-border-color: hsl(var(--hsl-dark-grey));
     --solid-internal-border-color: hsl(var(--hsl-dark-grey));
     --table-background: hsl(var(--hsl-dark-grey));
@@ -95,4 +99,15 @@
     --task-icon-onhold: hsl(38 72% 59%);
     --unselected-text-color: hsl(var(--hsl-base02));
     --vertical-menu-background: hsl(var(--hsl-bg));
+}
+
+:root:has(body.acrylic-window) {
+    --page-background: transparent;
+    --editor-background: hsl(var(--hsl-bg-muted) / 70%);
+    --editor-drawer-background: hsl(var(--hsl-bg));
+    --note-list-bar-background: hsl(var(--hsl-bg-muted) / 70%);
+    --sidebar-background: hsl(var(--hsl-bg) / 90%);
+    --inline-dropdown-menu-background: hsl(var(--hsl-bg));
+    --vertical-menu-background: hsl(var(--hsl-bg));
+    --sidebar-sync-status-view-background: hsl(0 0% 3% / 50%);
 }
