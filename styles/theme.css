@@ -65,11 +65,12 @@
     --pressed-text-color: hsl(var(--hsl-yellow));
     --primary-button-background-color: hsl(var(--hsl-bg));
     --primary-button-hover-background-color: hsl(var(--hsl-bg) / 70%);
-    --primary-color-focus: hsl(var(--hsl-base02));
+    --primary-button-text-color: hsl(var(--hsl-light-grey));
     --primary-color: hsl(var(--hsl-yellow));
+    --primary-color-focus: hsl(var(--hsl-base02));
+    --secondary-pointing-menu-active-hover-item-color: hsl(var(--hsl-dark-grey));
     --secondary-pointing-menu-active-item-color: hsl(var(--hsl-dark-grey));
     --secondary-pointing-menu-hover-text-color: hsl(var(--hsl-yellow) / 70%);
-    --secondary-pointing-menu-active-hover-item-color: hsl(var(--hsl-dark-grey));
     --secondary-segment-background: hsl(var(--hsl-dark-grey));
     --segment-background: hsl(var(--hsl-dark-grey) / 50%);
     --selection-list-active-background: hsl(var(--hsl-yellow));
@@ -91,23 +92,29 @@
     --table-background: hsl(var(--hsl-dark-grey));
     --table-header-background: var(--message-background);
     --tabular-menu-active-background: hsl(var(--hsl-yellow));
+    --tabular-menu-active-color: hsl(var(--hsl-dark-grey));
     --tag-grey-color: hsl(var(--hsl-light-grey));
     --tag-yellow-color: hsl(var(--hsl-yellow));
     --task-icon-active: hsl(223 72% 68%);
     --task-icon-completed: hsl(147 72% 68%);
     --task-icon-dropped: hsl(360 72% 68%);
     --task-icon-onhold: hsl(38 72% 59%);
+    --toggle-focus-color: hsl(var(--hsl-light-grey) / 70%);
+    --toggle-lane-background: hsl(var(--hsl-light-grey) / 70%);
+    --toggle-on-focus-label-color: hsl(var(--hsl-yellow));
+    --toggle-on-focus-lane-color: hsl(var(--hsl-yellow));
+    --toggle-on-handle-box-shadow: white;
     --unselected-text-color: hsl(var(--hsl-base02));
     --vertical-menu-background: hsl(var(--hsl-bg));
 }
 
 :root:has(body.acrylic-window) {
-    --page-background: transparent;
     --editor-background: hsl(var(--hsl-bg-muted) / 70%);
     --editor-drawer-background: hsl(var(--hsl-bg));
-    --note-list-bar-background: hsl(var(--hsl-bg-muted) / 70%);
-    --sidebar-background: hsl(var(--hsl-bg) / 90%);
     --inline-dropdown-menu-background: hsl(var(--hsl-bg));
-    --vertical-menu-background: hsl(var(--hsl-bg));
+    --note-list-bar-background: hsl(var(--hsl-bg-muted) / 70%);
+    --page-background: transparent;
+    --sidebar-background: hsl(var(--hsl-bg) / 90%);
     --sidebar-sync-status-view-background: hsl(0 0% 3% / 50%);
+    --vertical-menu-background: hsl(var(--hsl-bg));
 }
